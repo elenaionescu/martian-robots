@@ -1,0 +1,27 @@
+{
+  "name": "martian-robots",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "inquirer": "^0.8.5",
+    "mocha": "^2.2.5",
+    "should": "^6.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha ./test/martian.js",
+    "watch": "./node_modules/mocha/bin/mocha --watch-extensions js -w ./test/martian.js",
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elenaionescu/martian-robots.git"
+  },
+  "author": "Elena Ionescu",
+  "license": "ISC",
+  "homepage": "https://github.com/elenaionescu/martian-robots#readme"
+}
